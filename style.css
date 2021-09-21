@@ -5,5 +5,22 @@
 
 .intro {
   float: right;
+  width: 62%;
+  padding: 10px;
+  border: 10px groove black;
   text-align: justify;
+}
+
+.intro::first-letter {
+  float: left;
+  font-size: 72px;
+}
+
+.name {
+  margin-left: 2%;
+}
+
+.underline {
+  height: 5px;
+  background-color: black;
 }
