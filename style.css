@@ -8,6 +8,8 @@
   width: 62%;
   padding: 10px;
   border: 10px groove black;
+  border-collapse: collapse;
+  margin-bottom: 0;
   text-align: justify;
 }
 
@@ -17,13 +19,20 @@
 }
 
 .datafile {
+  clear: right;
+  float: right;
   width: 25%;
-  border: 10px groove black;
+  border-left: 10px groove black;
+  border-right: 10px groove black;
+  border-bottom: 10px groove black;
   border-collapse: collapse;
+  margin-right: 2%;
+  margin-top: 0;
 }
 
 .datafile th, td {
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
 }
 
 .profilepicture {
