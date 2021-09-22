@@ -16,6 +16,34 @@
   font-size: 72px;
 }
 
+.datafile {
+  width: 25%;
+  border: 10px groove black;
+  border-collapse: collapse;
+}
+
+.datafile th, td {
+  border-top: 1px solid black;
+}
+
+.profilepicture {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.infoheading {
+  font-size: 20px;
+}
+
+.infolabel {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.infospec {
+  font-size: 12px
+}
+
 .name {
   margin-left: 2%;
 }
