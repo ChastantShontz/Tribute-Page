@@ -4,15 +4,19 @@ body {
 }
 
 .background {
+  border-radius: 25px;
+  background-color: white;
   border: 1px solid black;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: white;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: lightgray;
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: 2px solid black;
@@ -23,11 +27,20 @@ body {
   text-decoration: none;
 }
 
-#navlink {
-  color: black;
+.link:hover {
+  color: purple;
+  text-decoration: underline;
 }
 
-.link:hover, #navlink:hover {
+#navlink {
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+#navlink:hover {
+  background-color: white;
   color: purple;
   text-decoration: underline;
 }
@@ -104,12 +117,12 @@ body {
 .funfact {
   clear: right;
   float: right;
+  border-radius: 50%;
   height: 110px;
   width: 110px;
   padding: 20px;
   border: 5px double black;
-  border-radius: 50%;
-  margin-right: 5%;
+  margin-right: 7%;
   margin-top: 5%;
   font-size: 12px;
   text-align: center;
@@ -130,12 +143,12 @@ body {
 .behindscenes {
   clear: right;
   float: right;
+  border-radius: 50%;
   height: 120px;
   width: 120px;
   padding: 20px;
   border: 5px double black;
-  border-radius: 50%;
-  margin-right: 10%;
+  margin-right: 12%;
   margin-top: 5%;
   font-size: 12px;
   text-align: center;
@@ -160,8 +173,8 @@ body {
 }
 
 .underline {
-  height: 5px;
   background-color: black;
+  height: 5px;
 }
 
 .quotemark {
@@ -338,6 +351,8 @@ body {
 }
 
 .footer {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   padding-bottom: 1px;
   border-top: 2px solid black;
   margin-top: 2%;
@@ -348,15 +363,15 @@ body {
    display: block;
    position: fixed;
    bottom: 50px;
+   border-radius: 50px;
+   background-color: blue;
    box-sizing: border-box;
    width: 9%;
    padding-left: 12px;
    padding-right: 12px;
    padding-top: 24px;
    padding-bottom: 24px;
-   border-radius: 50px;
    margin-left: 90%;
-   background-color: blue;
    color: white;
    text-align: center;
    font-weight: bold;
