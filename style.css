@@ -335,3 +335,23 @@
   margin-top: 2%;
   text-align: center;
 }
+
+ .backtotop {
+   display: block;
+   position: fixed;
+   bottom: 50px;
+   box-sizing: border-box;
+   width: 9%;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   border: 1px solid black;
+   border-radius: 50px;
+   margin-left: 90%;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
