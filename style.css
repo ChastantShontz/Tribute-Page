@@ -3,6 +3,14 @@
   margin-right: 10%;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 2px solid black;
+}
+
 .intro {
   float: right;
   width: 62%;
@@ -125,7 +133,6 @@
 }
 
 .name {
-  border: 1px solid black;
   margin-left: 2%;
   margin-bottom: 0;
   font-size: 32px;
@@ -290,7 +297,7 @@
 
 .chartitle {
   padding-top: 10px;
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 24%;
   margin-bottom: 0;
   font-size: 20px;
