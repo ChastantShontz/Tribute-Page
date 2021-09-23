@@ -27,6 +27,7 @@
   border-right: 10px groove black;
   border-bottom: 10px groove black;
   border-collapse: collapse;
+  margin-left: 6%;
   margin-right: 2%;
   margin-top: 0;
 }
@@ -36,9 +37,9 @@
   border-collapse: collapse;
 }
 
-.profilepicture {
-  width: 100%;
+.thrawnprofilepicture {
   vertical-align: bottom;
+  width: 100%;
 }
 
 .infoheading {
@@ -61,8 +62,16 @@
   width: 30%;
   padding: 10px;
   border: 1px solid black;
+  margin-left: 1%;
   margin-right: 2%;
   margin-top: 2%;
+}
+
+.whitespace {
+  clear: right;
+  float: right;
+  height: 1000px;
+  width: 33%;
 }
 
 .name {
@@ -76,7 +85,6 @@
 
 .quotationmark {
   margin-left: 2%;
-  margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 48px;
@@ -106,8 +114,123 @@
   position: relative;
   bottom: 25px;
   margin-left: 4%;
-  margin-right: 29%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
+}
+
+.bodycon {
+  display: flex;
+  align-items: center;
+}
+
+#bodycon1 {
+  margin-top: 4%;
+}
+
+#bodycon2 {
+  margin-top: 6%;
+}
+
+#bodycon3 {
+  margin-top: 9%;
+}
+
+#bodycon4 {
+  margin-top: 5%;
+}
+
+#bodycon5 {
+  margin-top: 19%;
+}
+
+.imgodd {
+  position: absolute;
+  box-sizing: border-box;
+  width: 240px;
+  border: 20px groove black;
+  margin-left: 30px;
+}
+
+.imgeven {
+  position: absolute;
+  box-sizing: border-box;
+  width: 240px;
+  border: 20px groove black;
+  margin-left: 60px;
+}
+
+.caption {
+  position: absolute;
+  padding: 2px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#caption1 {
+  margin-left: 240px;
+  margin-bottom: 313px;
+}
+
+#caption2 {
+  margin-left: 298px;
+  margin-bottom: 257px;
+}
+
+#caption3 {
+  margin-left: 268px;
+  margin-bottom: 294px;
+}
+
+#caption4 {
+  margin-left: 270px;
+  margin-bottom: 351px;
+}
+
+#caption5 {
+  margin-left: 268px;
+  margin-bottom: 256px;
+}
+
+.parodd {
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 10px groove black;
+  margin-right: 60px;
+  text-align: justify;
+}
+
+.pareven {
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 10px groove black;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+#par1 {
+  margin-left: 26%;
+}
+
+#par2 {
+  margin-left: 30%;
+}
+
+#par3 {
+  margin-left: 26%;
+}
+
+#par4 {
+  margin-left: 30%;
+}
+
+#par5 {
+  margin-left: 26%;
 }
