@@ -3,7 +3,7 @@
   margin-right: 10%;
 }
 
-.navigation {
+.nav {
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
@@ -11,13 +11,17 @@
   border-bottom: 2px solid black;
 }
 
-.navlink {
-  color: black;
+.link {
+  color: blue;
   text-decoration: none;
 }
 
-.navlink:hover {
-  color: blue;
+#navlink {
+  color: black;
+}
+
+.link:hover, #navlink:hover {
+  color: purple;
   text-decoration: underline;
 }
 
@@ -153,7 +157,7 @@
   background-color: black;
 }
 
-.quotationmark {
+.quotemark {
   margin-left: 2%;
   margin-top: 0;
   margin-bottom: 0;
@@ -230,7 +234,7 @@
   margin-left: 60px;
 }
 
-.caption {
+.cap {
   position: absolute;
   padding: 2px;
   border: 2px solid black;
@@ -238,27 +242,27 @@
   font-weight: bold;
 }
 
-#caption1 {
+#cap1 {
   margin-left: 240px;
   margin-bottom: 313px;
 }
 
-#caption2 {
+#cap2 {
   margin-left: 298px;
   margin-bottom: 257px;
 }
 
-#caption3 {
+#cap3 {
   margin-left: 268px;
   margin-bottom: 294px;
 }
 
-#caption4 {
+#cap4 {
   margin-left: 270px;
   margin-bottom: 351px;
 }
 
-#caption5 {
+#cap5 {
   margin-left: 268px;
   margin-bottom: 256px;
 }
@@ -305,7 +309,7 @@
   margin-left: 26%;
 }
 
-.characters {
+.char {
   border: 1px solid black;
   margin-left: 2%;
   margin-right: 2%;
