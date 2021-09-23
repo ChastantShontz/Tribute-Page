@@ -67,10 +67,36 @@
   margin-top: 2%;
 }
 
-.whitespace {
+.funfact {
   clear: right;
   float: right;
-  height: 1000px;
+  height: 110px;
+  width: 110px;
+  padding: 20px;
+  border: 5px double black;
+  border-radius: 50%;
+  margin-right: 5%;
+  margin-top: 5%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.funfacttitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.whitespace1 {
+  clear: right;
+  float: right;
+  height: 1px;
+  width: 33%;
+}
+
+.whitespace2 {
+  clear: right;
+  float: right;
+  height: 225px;
   width: 33%;
 }
 
