@@ -1,6 +1,14 @@
+body {
+  background-image: url(star-wars-background-image.jpg);
+  background-repeat: repeat-y;
+}
+
 .background {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: white;
 }
 
 .nav {
@@ -331,6 +339,7 @@
 }
 
 .footer {
+  padding-bottom: 1px;
   border-top: 2px solid black;
   margin-top: 2%;
   text-align: center;
