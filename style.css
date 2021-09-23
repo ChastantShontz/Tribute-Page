@@ -115,7 +115,7 @@
 .whitespace2 {
   clear: right;
   float: right;
-  height: 220px;
+  height: 225px;
   width: 33%;
 }
 
@@ -125,7 +125,10 @@
 }
 
 .name {
+  border: 1px solid black;
   margin-left: 2%;
+  margin-bottom: 0;
+  font-size: 32px;
 }
 
 .underline {
@@ -288,7 +291,7 @@
 .chartitle {
   padding-top: 10px;
   border-top: 1px solid black;
-  margin-top: 21%;
+  margin-top: 24%;
   margin-bottom: 0;
   font-size: 20px;
   font-weight: bold;
