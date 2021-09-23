@@ -67,6 +67,11 @@
   margin-top: 2%;
 }
 
+.mediatitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .funfact {
   clear: right;
   float: right;
@@ -93,13 +98,6 @@
   width: 33%;
 }
 
-.whitespace2 {
-  clear: right;
-  float: right;
-  height: 225px;
-  width: 33%;
-}
-
 .behindscenes {
   clear: right;
   float: right;
@@ -112,6 +110,13 @@
   margin-top: 5%;
   font-size: 12px;
   text-align: center;
+}
+
+.whitespace2 {
+  clear: right;
+  float: right;
+  height: 220px;
+  width: 33%;
 }
 
 .behindscenestitle {
@@ -278,4 +283,21 @@
 
 #par5 {
   margin-left: 26%;
+}
+
+.chartitle {
+  padding-top: 10px;
+  border-top: 1px solid black;
+  margin-top: 21%;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 0;
 }
