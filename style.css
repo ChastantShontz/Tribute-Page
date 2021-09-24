@@ -303,6 +303,7 @@ body {
 }
 
 .imgodd {
+  z-index: 3;
   position: absolute;
   box-sizing: border-box;
   width: 240px;
@@ -311,6 +312,7 @@ body {
 }
 
 .imgeven {
+  z-index: 3;
   position: absolute;
   box-sizing: border-box;
   width: 240px;
@@ -318,7 +320,28 @@ body {
   margin-left: 60px;
 }
 
+#img1 {
+  border: 20px groove red;
+}
+
+#img2 {
+  border: 20px groove green;
+}
+
+#img3 {
+  border: 20px groove yellow;
+}
+
+#img4 {
+  border: 20px groove orange;
+}
+
+#img5 {
+  border: 20px groove purple;
+}
+
 .cap {
+  z-index: 1;
   position: absolute;
   padding: 2px;
   border: 2px solid black;
@@ -327,31 +350,37 @@ body {
 }
 
 #cap1 {
+  border: 2px solid red;
   margin-left: 240px;
   margin-bottom: 313px;
 }
 
 #cap2 {
+  border: 2px solid green;
   margin-left: 298px;
   margin-bottom: 257px;
 }
 
 #cap3 {
+  border: 2px solid yellow;
   margin-left: 268px;
   margin-bottom: 294px;
 }
 
 #cap4 {
+  border: 2px solid orange;
   margin-left: 270px;
   margin-bottom: 351px;
 }
 
 #cap5 {
+  border: 2px solid purple;
   margin-left: 268px;
   margin-bottom: 256px;
 }
 
 .parodd {
+  z-index: 2;
   box-sizing: border-box;
   padding-left: 60px;
   padding-right: 10px;
@@ -363,6 +392,7 @@ body {
 }
 
 .pareven {
+  z-index: 2;
   box-sizing: border-box;
   padding-left: 60px;
   padding-right: 10px;
@@ -374,22 +404,27 @@ body {
 }
 
 #par1 {
+  border: 10px groove red;
   margin-left: 26%;
 }
 
 #par2 {
+  border: 10px groove green;
   margin-left: 30%;
 }
 
 #par3 {
+  border: 10px groove yellow;
   margin-left: 26%;
 }
 
 #par4 {
+  border: 10px groove orange;
   margin-left: 30%;
 }
 
 #par5 {
+  border: 10px groove purple;
   margin-left: 26%;
 }
 
