@@ -107,6 +107,8 @@ body {
 .media {
   clear: right;
   float: right;
+  border-radius: 25px;
+  background-color: lightyellow;
   box-sizing: border-box;
   width: 30%;
   padding: 10px;
@@ -393,6 +395,7 @@ body {
 }
 
 .chartitle {
+  margin-top: 10px;
   margin-bottom: 0;
   font-size: 20px;
   font-weight: bold;
