@@ -54,9 +54,14 @@ body {
 
 .intro {
   float: right;
-  width: 62%;
-  padding: 10px;
-  border: 10px groove black;
+  width: 64%;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 10px groove blue;
+  border-top: 10px groove blue;
+  border-bottom: 10px groove blue;
   border-collapse: collapse;
   margin-bottom: 0;
   text-align: justify;
