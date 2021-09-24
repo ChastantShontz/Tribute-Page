@@ -75,11 +75,12 @@ body {
 .datafile {
   clear: right;
   float: right;
+  background-color: lightyellow;
   box-sizing: border-box;
   width: 25%;
-  border-left: 10px groove black;
-  border-right: 10px groove black;
-  border-bottom: 10px groove black;
+  border-left: 10px groove blue;
+  border-right: 10px groove blue;
+  border-bottom: 10px groove blue;
   border-collapse: collapse;
   margin-left: 6%;
   margin-right: 2%;
@@ -87,7 +88,7 @@ body {
 }
 
 .datafile th, td {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid blue;
   border-collapse: collapse;
 }
 
