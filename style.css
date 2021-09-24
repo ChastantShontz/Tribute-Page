@@ -92,7 +92,7 @@ body {
   border-collapse: collapse;
 }
 
-.thrawnprofilepicture {
+.imgdata {
   vertical-align: bottom;
   width: 100%;
 }
@@ -307,7 +307,6 @@ body {
   position: absolute;
   box-sizing: border-box;
   width: 240px;
-  border: 20px groove black;
   margin-left: 30px;
 }
 
@@ -316,8 +315,12 @@ body {
   position: absolute;
   box-sizing: border-box;
   width: 240px;
-  border: 20px groove black;
   margin-left: 60px;
+}
+
+.imgodd:hover, .imgeven:hover {
+  z-index: 4;
+  width: 480px;
 }
 
 #img1 {
