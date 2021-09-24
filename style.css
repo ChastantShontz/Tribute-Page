@@ -225,12 +225,14 @@ body {
 .name {
   margin-left: 2%;
   margin-bottom: 0;
+  color: blue;
   font-size: 32px;
 }
 
 .underline {
-  background-color: black;
+  background-color: blue;
   height: 5px;
+  color: blue;
 }
 
 .quotemark {
@@ -433,11 +435,11 @@ body {
    padding-bottom: 24px;
    margin-left: 90%;
    color: white;
-   text-align: center;
    font-weight: bold;
    text-transform: uppercase;
    text-decoration: none;
- }
+   text-align: center;
+}
 
 .backtotop:hover {
   border: 1px solid yellow;
