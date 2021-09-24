@@ -488,4 +488,5 @@ body {
 .backtotop:hover {
   border: 1px solid yellow;
   color: yellow;
+  text-decoration: underline;
 }
