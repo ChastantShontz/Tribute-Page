@@ -36,13 +36,20 @@ body {
   border-radius: 5px;
   padding: 5px;
   color: black;
-  text-decoration: none;
 }
 
 #navlink:hover {
   background-color: white;
   color: purple;
-  text-decoration: underline;
+}
+
+#charlink {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#charlink:hover {
+  background-color: lightblue;
 }
 
 .intro {
@@ -377,6 +384,8 @@ body {
 }
 
 .char {
+  border-radius: 25px;
+  background-color: lightyellow;
   border: 1px solid black;
   margin-left: 2%;
   margin-right: 2%;
