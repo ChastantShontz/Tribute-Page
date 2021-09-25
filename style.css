@@ -1,6 +1,7 @@
 body {
-  background-image: url(star-wars-background-image.jpg);
+  background-image: url(images/star-wars-background-image.jpg);
   background-attachment: fixed;
+  font-family: "Merriweather", serif;
 }
 
 .background {
@@ -14,12 +15,14 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background-color: #d6d6d6;
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: 2px solid black;
+  font-family: "Roboto", sans-serif;
 }
 
 .link {
@@ -54,7 +57,8 @@ body {
 
 .intro {
   float: right;
-  width: 64%;
+  box-sizing: border-box;
+  width: 68%;
   padding-left: 10px;
   padding-right: 20px;
   padding-top: 10px;
@@ -85,6 +89,7 @@ body {
   margin-left: 6%;
   margin-right: 2%;
   margin-top: 0;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .datafile th, td {
@@ -98,6 +103,7 @@ body {
 }
 
 .infoheading {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 
@@ -125,6 +131,7 @@ body {
 }
 
 .mediatitle {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -169,6 +176,7 @@ body {
 }
 
 .bubbletitle {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -233,8 +241,13 @@ body {
 .name {
   margin-left: 2%;
   margin-bottom: 0;
+  font-family: "Archivo Black", sans-serif;
   color: #55a0d3;
   font-size: 32px;
+}
+
+.firstletter {
+  font-size: 48px;
 }
 
 .underline {
@@ -257,7 +270,12 @@ body {
   margin-right: 67%;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.quotetext {
+  font-family: "Dosis", sans-serif;
   font-size: 20px;
+  font-style: italic;
 }
 
 .quotelabel {
@@ -304,7 +322,7 @@ body {
   margin-top: 19%;
 }
 
-.imgodd {
+.bodyimgodd {
   z-index: 3;
   position: absolute;
   box-sizing: border-box;
@@ -312,7 +330,7 @@ body {
   margin-left: 30px;
 }
 
-.imgeven {
+.bodyimgeven {
   z-index: 3;
   position: absolute;
   box-sizing: border-box;
@@ -320,117 +338,119 @@ body {
   margin-left: 60px;
 }
 
-.imgodd:active, .imgeven:active {
+.bodyimgodd:active, .bodyimgeven:active {
   z-index: 4;
   width: 480px;
 }
 
-#img1 {
+#bodyimg1 {
   border: 20px groove #fa2f2f;
 }
 
-#img2 {
+#bodyimg2 {
   border: 20px groove #2da154;
 }
 
-#img3 {
+#bodyimg3 {
   border: 20px groove #fcdf21;
 }
 
-#img4 {
+#bodyimg4 {
   border: 20px groove #fa9600;
 }
 
-#img5 {
+#bodyimg5 {
   border: 20px groove #9a3cc9;
 }
 
-.cap {
+.bodycap {
   z-index: 1;
   position: absolute;
+  box-sizing: border-box;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
 
-#cap1 {
+#bodycap1 {
   background-color: rgba(250, 47, 47, .25);
   margin-left: 240px;
-  margin-bottom: 313px;
+  margin-bottom: 302px;
 }
 
-#cap2 {
+#bodycap2 {
   background-color: rgba(45, 161, 84, .25);
   margin-left: 298px;
-  margin-bottom: 257px;
+  margin-bottom: 246px;
 }
 
-#cap3 {
+#bodycap3 {
   background-color: rgba(252, 223, 33, .25);
   margin-left: 268px;
-  margin-bottom: 294px;
+  margin-bottom: 283px;
 }
 
-#cap4 {
+#bodycap4 {
   background-color: rgba(250, 150, 0, .25);
   margin-left: 270px;
-  margin-bottom: 351px;
+  margin-bottom: 340px;
 }
 
-#cap5 {
+#bodycap5 {
   background-color: rgba(154, 60, 201, .25);
   margin-left: 268px;
-  margin-bottom: 256px;
+  margin-bottom: 245px;
 }
 
-.parodd {
+.bodyparodd {
   z-index: 2;
   box-sizing: border-box;
   padding-left: 60px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 10px groove black;
   margin-right: 60px;
   text-align: justify;
 }
 
-.pareven {
+.bodypareven {
   z-index: 2;
   box-sizing: border-box;
   padding-left: 60px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 10px groove black;
   margin-right: 30px;
   text-align: justify;
 }
 
-#par1 {
+#bodypar1 {
   border: 10px groove #fa2f2f;
   margin-left: 26%;
 }
 
-#par2 {
+#bodypar2 {
   border: 10px groove #2da154;
   margin-left: 30%;
 }
 
-#par3 {
+#bodypar3 {
   border: 10px groove #fcdf21;
   margin-left: 26%;
 }
 
-#par4 {
+#bodypar4 {
   border: 10px groove #fa9600;
   margin-left: 30%;
 }
 
-#par5 {
+#bodypar5 {
   border: 10px groove #9a3cc9;
   margin-left: 26%;
 }
@@ -438,6 +458,7 @@ body {
 .char {
   border-radius: 25px;
   background-color: #fcffcc;
+  box-sizing: border-box;
   border: 1px solid black;
   margin-left: 2%;
   margin-right: 2%;
@@ -447,6 +468,7 @@ body {
 .chartitle {
   margin-top: 10px;
   margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -463,9 +485,11 @@ body {
   background-color: #d6d6d6;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  box-sizing: border-box;
   padding-bottom: 1px;
   border-top: 2px solid black;
   margin-top: 2%;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -477,20 +501,17 @@ body {
    background-color: #3561BB;
    box-sizing: border-box;
    width: 9%;
-   padding-left: 12px;
-   padding-right: 12px;
-   padding-top: 24px;
-   padding-bottom: 24px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    margin-left: 90%;
+   font-family: "Roboto", sans-serif;
    color: white;
    font-weight: bold;
-   text-transform: uppercase;
    text-decoration: none;
    text-align: center;
 }
 
 .backtotop:hover {
-  border: 1px solid #fcf45b;
   color: #fcf45b;
   text-decoration: underline;
 }
