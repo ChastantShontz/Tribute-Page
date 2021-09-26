@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/star-wars-background-image.jpg);
+  background-image: url(images/star-wars-background.jpg);
   background-attachment: fixed;
   font-family: "Merriweather", serif;
 }
@@ -134,6 +134,15 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+.medialist {
+  margin-left: -10px;
+  list-style: none;
+}
+
+.icon {
+  margin-right: 5px;
 }
 
 .funfactborder2 {
