@@ -2,13 +2,13 @@ body {
   background-image: url(images/star-wars-background.jpg);
   background-attachment: fixed;
   font-family: "Merriweather", serif;
-  font-size: 14px;
+  font-size: .9em;
 }
 
 .background {
   border-radius: 25px;
   background-color: var(--white);
-  border: 1px solid var(--black);
+  border: .1em solid var(--black);
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -20,9 +20,9 @@ body {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background-color: var(--gray);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom: 2px solid var(--black);
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: .15em solid var(--black);
   font-family: "Roboto", sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
 
 #navlink {
   border-radius: 5px;
-  padding: 5px;
+  padding: .5em;
   color: var(--black);
 }
 
@@ -49,7 +49,7 @@ body {
 
 #charlink {
   border-radius: 5px;
-  padding: 5px;
+  padding: .5em;
 }
 
 #charlink:hover {
@@ -60,13 +60,13 @@ body {
   float: right;
   box-sizing: border-box;
   width: 60%;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-left: 10px groove var(--thrawnblue);
-  border-top: 10px groove var(--thrawnblue);
-  border-bottom: 10px groove var(--thrawnblue);
+  padding-left: .5em;
+  padding-right: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border-left: .75em groove var(--thrawnblue);
+  border-top: .75em groove var(--thrawnblue);
+  border-bottom: .75em groove var(--thrawnblue);
   border-collapse: collapse;
   margin-bottom: 0;
   text-align: justify;
@@ -74,7 +74,7 @@ body {
 
 .intro::first-letter {
   float: left;
-  font-size: 72px;
+  font-size: 4.5em;
 }
 
 .datafile {
@@ -83,17 +83,22 @@ body {
   background-color: var(--backgroundyellow);
   box-sizing: border-box;
   width: 25%;
-  border-left: 10px groove var(--thrawnblue);
-  border-right: 10px groove var(--thrawnblue);
-  border-bottom: 10px groove var(--thrawnblue);
+  border-left: .75em groove var(--thrawnblue);
+  border-right: .75em groove var(--thrawnblue);
+  border-bottom: .75em groove var(--thrawnblue);
   border-collapse: collapse;
   margin-right: 2%;
   margin-top: 0;
   font-family: "Rajdhani", sans-serif;
 }
 
-.datafile th, td {
-  border-bottom: 1px solid var(--thrawnblue);
+.datafile th {
+  border-bottom: .075em solid var(--thrawnblue);
+  border-collapse: collapse;
+}
+
+.datafile td {
+  border-bottom: .1em solid var(--thrawnblue);
   border-collapse: collapse;
 }
 
@@ -102,9 +107,9 @@ body {
   width: 100%;
 }
 
-.dataheading {
+.datatitle {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
 }
 
 .datalabel {
@@ -112,8 +117,8 @@ body {
   font-weight: bold;
 }
 
-.dataspec {
-  font-size: 12px
+.spec {
+  font-size: .75em;
 }
 
 .media {
@@ -123,26 +128,26 @@ body {
   background-color: var(--backgroundyellow);
   box-sizing: border-box;
   width: 30%;
-  padding: 10px;
-  border: 1px solid var(--black);
+  padding: 1em;
+  border: .1em solid var(--black);
   margin-right: 2%;
   margin-top: 5%;
 }
 
 .mediatitle {
-  margin-left: 10px;
+  margin-left: .5em;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 .medialist {
-  margin-left: -10px;
+  margin-left: -1em;
   list-style: none;
 }
 
 .icon {
-  margin-right: 5px;
+  margin-right: .25em;
 }
 
 .funfactborder2 {
@@ -153,9 +158,9 @@ body {
   align-items: center;
   border-radius: 50%;
   box-sizing: border-box;
-  height: 189px;
-  width: 189px;
-  border: 4px solid var(--darkgreen);
+  height: 195px;
+  width: 195px;
+  border: .3em solid var(--darkgreen);
   margin-right: 7%;
   margin-top: 10%;
 
@@ -167,9 +172,9 @@ body {
   align-items: center;
   border-radius: 50%;
   box-sizing: border-box;
-  height: 181px;
-  width: 181px;
-  border: 8px solid var(--lightgreen);
+  height: 187px;
+  width: 187px;
+  border: .8em solid var(--lightgreen);
 }
 
 .funfact {
@@ -178,15 +183,15 @@ body {
   box-sizing: border-box;
   height: 165px;
   width: 165px;
-  padding: 20px;
-  border: 4px solid var(--darkgreen);
-  font-size: 10px;
+  padding: 2em;
+  border: .4em solid var(--darkgreen);
+  font-size: .7em;
   text-align: center;
 }
 
 .bubbletitle {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -198,9 +203,9 @@ body {
   align-items: center;
   border-radius: 50%;
   box-sizing: border-box;
-  height: 189px;
-  width: 189px;
-  border: 4px solid var(--darkblue);
+  height: 195px;
+  width: 195px;
+  border: .3em solid var(--darkblue);
   margin-right: 12%;
   margin-top: 5%;
 }
@@ -211,9 +216,9 @@ body {
   align-items: center;
   border-radius: 50%;
   box-sizing: border-box;
-  height: 181px;
-  width: 181px;
-  border: 8px solid var(--lightblue);
+  height: 187px;
+  width: 187px;
+  border: .8em solid var(--lightblue);
 }
 
 .behindscenes {
@@ -222,15 +227,10 @@ body {
   box-sizing: border-box;
   height: 165px;
   width: 165px;
-  padding: 20px;
-  border: 4px solid var(--darkblue);
-  font-size: 10px;
+  padding: 2em;
+  border: .4em solid var(--darkblue);
+  font-size: .7em;
   text-align: center;
-}
-
-.bubbletitle {
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .name {
@@ -238,95 +238,76 @@ body {
   margin-bottom: 0;
   font-family: "Archivo Black", sans-serif;
   color: var(--thrawnblue);
-  font-size: 30px;
+  font-size: 2em;
 }
 
 .firstletter {
-  font-size: 45px;
+  font-size: 1.5em;
 }
 
 .underline {
   background-color: var(--thrawnblue);
-  height: 5px;
+  height: .25em;
   color: var(--thrawnblue);
 }
 
-.topquotemark {
-  margin-top: 2%;
+.quotemark {
+  margin-top: 1%;
   margin-bottom: 0;
   margin-left: 2%;
-  font-size: 48px;
+  font-size: 3em;
 }
 
-.quotemark {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 2%;
-  font-size: 48px;
+#topquotemark {
+  margin-top: 2%;
 }
 
 .quote {
   position: relative;
-  bottom: 27px;
+  bottom: 1.5em;
   margin-left: 4%;
   margin-right: 62%;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 1.25em;
+}
+
+#bottomquote {
+  margin-right: 29%;
 }
 
 .quotetext {
   font-family: "Dosis", sans-serif;
-  font-size: 20px;
+  font-size: 1.1em;
   font-style: italic;
 }
 
 .quotelabel {
   position: relative;
-  bottom: 27px;
+  bottom: 1.5em;
   margin-left: 6%;
   margin-right: 62%;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1em;
 }
 
-.quotespec {
-  font-size: 12px;
-}
-
-.bottomquote {
-  position: relative;
-  bottom: 27px;
-  margin-left: 4%;
+#bottomquotelabel {
   margin-right: 29%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.bottomquotelabel {
-  position: relative;
-  bottom: 27px;
-  margin-left: 6%;
-  margin-right: 29%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px;
 }
 
 .bodycap {
   z-index: 1;
   position: relative;
   box-sizing: border-box;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-top: .1em;
+  padding-bottom: .1em;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
@@ -334,34 +315,36 @@ body {
   background-color: rgba(250, 47, 47, .25);
   width: 14%;
   margin-left: 22%;
+  margin-top: 2.4%;
 }
 
 #bodycap2 {
-  top: 70px;
+  top: 3.9em;
   background-color: rgba(45, 161, 84, .25);
   width: 12%;
-  margin-left: 30%;
+  margin-left: 30.4%;
 }
 
 #bodycap3 {
+  top: .4em;
   background-color: rgba(252, 223, 33, .25);
   width: 13%;
-  margin-left: 25%;
-  margin-top: 36px;
+  margin-left: 25.4%;
+  margin-top: 2em;
 }
 
 #bodycap4 {
   background-color: rgba(250, 150, 0, .25);
   width: 14%;
-  margin-left: 27%;
-  margin-top: 15px;
+  margin-left: 27.4%;
+  margin-top: 1em;
 }
 
 #bodycap5 {
-  top: 221px;
+  top: 11.5em;
   background-color: rgba(154, 60, 201, .25);
   width: 16%;
-  margin-left: 25%;
+  margin-left: 25.4%;
 }
 
 .bodyconodd {
@@ -381,99 +364,99 @@ body {
 }
 
 #bodycon2 {
-  margin-top: 7px;
+  margin-top: 1em;
 }
 
 #bodycon3 {
-  bottom: 21px;
+  bottom: 1em;
 }
 
 #bodycon4 {
 }
 
 #bodycon5 {
-  margin-top: 7px;
+  margin-top: 1em;
 }
 
 .bodyimg {
   z-index: 3;
   position: relative;
   box-sizing: border-box;
-  width: 240px;
+  width: 17em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 #bodyimg1 {
-  border: 20px groove var(--red);
+  border: 1.5em groove var(--red);
 }
 
 #bodyimg2 {
-  border: 20px groove var(--green);
+  border: 1.5em groove var(--green);
 }
 
 #bodyimg3 {
-  border: 20px groove var(--yellow);
+  border: 1.5em groove var(--yellow);
 }
 
 #bodyimg4 {
-  border: 20px groove var(--orange);
+  border: 1.5em groove var(--orange);
 }
 
 #bodyimg5 {
-  border: 20px groove var(--purple);
+  border: 1.5em groove var(--purple);
 }
 
 .bodypar {
   z-index: 2;
   position: relative;
-  right: 60px;
+  right: 5em;
   box-sizing: border-box;
-  padding-left: 60px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: -60px;
+  padding-left: 5em;
+  padding-right: .25em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  margin-right: -5em;
   margin-top: 0;
   margin-bottom: 0;
   text-align: justify;
 }
 
 #bodypar1 {
-  border: 10px groove var(--red);
+  border: .75em groove var(--red);
 }
 
 #bodypar2 {
-  border: 10px groove var(--green);
+  border: .75em groove var(--green);
 }
 
 #bodypar3 {
-  border: 10px groove var(--yellow);
+  border: .75em groove var(--yellow);
 }
 
 #bodypar4 {
-  border: 10px groove var(--orange);
+  border: .75em groove var(--orange);
 }
 
 #bodypar5 {
-  border: 10px groove var(--purple);
+  border: .75em groove var(--purple);
 }
 
 .char {
   border-radius: 25px;
   background-color: var(--backgroundyellow);
   box-sizing: border-box;
-  border: 1px solid var(--black);
+  border: .1em solid var(--black);
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 5%;
 }
 
 .chartitle {
-  margin-top: 10px;
+  margin-top: .5em;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: bold;
   text-align: center;
 }
@@ -490,8 +473,8 @@ body {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-sizing: border-box;
-  padding-bottom: 1px;
-  border-top: 2px solid var(--black);
+  padding-bottom: .1em;
+  border-top: .15em solid var(--black);
   margin-top: 2%;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -500,19 +483,19 @@ body {
  .backtotop {
    display: block;
    position: fixed;
-   bottom: 50px;
+   bottom: 3em;
    border-radius: 50px;
    background-color: var(--blue);
    box-sizing: border-box;
    width: 9%;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 25px;
-   padding-bottom: 25px;
+   padding-left: .5em;
+   padding-right: .5em;
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
    margin-left: 90%;
    font-family: "Roboto", sans-serif;
    color: var(--white);
-   font-size: 18px;
+   font-size: 1.2em;
    font-weight: bold;
    text-decoration: none;
    text-align: center;
@@ -543,4 +526,24 @@ body {
   --black: black;
   --gray: #d6d6d6;
   --white: white;
+}
+
+@media screen and (max-width: 1440px) {
+  .background {background-color: rgba(250, 47, 47, .5)}
+}
+
+@media screen and (max-width: 1280px) {
+  .background {background-color: rgba(45, 161, 84, .5)}
+}
+
+@media screen and (max-width: 990px) {
+  .background {background-color: rgba(252, 223, 33, .5)}
+}
+
+@media screen and (max-width: 768px) {
+  .background {background-color: rgba(250, 150, 0, .5)}
+}
+
+@media screen and (max-width: 550px) {
+  .background {background-color: rgba(154, 60, 201, .5)}
 }
