@@ -299,13 +299,14 @@ body {
 .bodycap {
   z-index: 1;
   position: relative;
+  right: 3.6em;
+  float: left;
   box-sizing: border-box;
-  padding-left: .25em;
-  padding-right: .25em;
-  padding-top: .1em;
-  padding-bottom: .1em;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-left: 3.6em;
+  padding-right: .1em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  margin-right: -3.35em;
   font-family: "Roboto", sans-serif;
   font-size: 1.4em;
   font-weight: bold;
@@ -313,74 +314,47 @@ body {
 
 #bodycap1 {
   background-color: rgba(250, 47, 47, .25);
-  width: 14%;
-  margin-left: 22%;
-  margin-top: 2.4%;
+  width: 11.8em;
 }
 
 #bodycap2 {
-  top: 3.9em;
   background-color: rgba(45, 161, 84, .25);
-  width: 12%;
-  margin-left: 30.4%;
+  width: 10.5em;
 }
 
 #bodycap3 {
-  top: .4em;
   background-color: rgba(252, 223, 33, .25);
-  width: 13%;
-  margin-left: 25.4%;
-  margin-top: 2em;
+  width: 11.1em;
 }
 
 #bodycap4 {
   background-color: rgba(250, 150, 0, .25);
-  width: 14%;
-  margin-left: 27.4%;
-  margin-top: 1em;
+  width: 11.5em;
 }
 
 #bodycap5 {
-  top: 11.5em;
   background-color: rgba(154, 60, 201, .25);
-  width: 16%;
-  margin-left: 25.4%;
+  width: 12.6em;
 }
 
 .bodyconodd {
-  position: relative;
   display: flex;
   align-items: center;
   margin-left: 5%;
   margin-right: 42%;
+  margin-top: 2em;
 }
 
 .bodyconeven {
-  position: relative;
   display: flex;
   align-items: center;
   margin-left: 10%;
   margin-right: 37%;
-}
-
-#bodycon2 {
-  margin-top: 1em;
-}
-
-#bodycon3 {
-  bottom: 1em;
-}
-
-#bodycon4 {
-}
-
-#bodycon5 {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .bodyimg {
   z-index: 3;
-  position: relative;
   box-sizing: border-box;
   width: 17em;
   margin-top: 0;
@@ -527,23 +501,38 @@ body {
   --gray: #d6d6d6;
   --white: white;
 }
+/*
+1440
+1280
+990
+768
+550
+*/
 
-@media screen and (max-width: 1440px) {
-  .background {background-color: rgba(250, 47, 47, .5)}
+@media screen and (min-width: 1440px) {
+  .background {background-color: red;}
 }
 
-@media screen and (max-width: 1280px) {
-  .background {background-color: rgba(45, 161, 84, .5)}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .background {background-color: orange;}
+  .name {font-size: 1.8em;}
+  .first-letter {font-size: 1.3em;}
+  .quotemark {margin-top: 3%;}
+  #topquotemark {margin-top: 4%;}
 }
 
-@media screen and (max-width: 990px) {
-  .background {background-color: rgba(252, 223, 33, .5)}
+@media screen and (min-width: 990px) and (max-width: 1279px) {
+  .background {background-color: yellow;}
 }
 
-@media screen and (max-width: 768px) {
-  .background {background-color: rgba(250, 150, 0, .5)}
+@media screen and (min-width: 768px) and (max-width: 989px) {
+  .background {background-color: green;}
 }
 
-@media screen and (max-width: 550px) {
-  .background {background-color: rgba(154, 60, 201, .5)}
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  .background {background-color: blue;}
+}
+
+@media screen and (max-width: 549px) {
+  .background {background-color: purple;}
 }
