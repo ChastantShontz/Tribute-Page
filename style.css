@@ -436,8 +436,8 @@ body {
 .hidbubbles {
   display: none;
   justify-content: space-around;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
   margin-top: 10%;
 }
 
@@ -567,7 +567,7 @@ body {
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .background {background-color: orange;}
   .name {font-size: 1.8em;}
-  .first-letter {font-size: 1.3em;}
+  .firstletter {font-size: 1.3em;}
   .quotemark {margin-top: 3%;}
   #topquotemark {margin-top: 4%;}
   .backtotop {padding-top: 1em; padding-bottom: 1em;}
@@ -575,8 +575,8 @@ body {
 
 @media screen and (min-width: 990px) and (max-width: 1279px) {
   .background {background-color: yellow;}
-  .name {font-size: 1.4em;}
-  .first-letter {font-size: .9em;}
+  .name {font-size: 1.5em;}
+  .firstletter {font-size: 1em;}
   #bottomquote {margin-right: 62%;}
   #bottomquotelabel {margin-right: 62%;}
   .backtotop {padding-top: 1em; padding-bottom: 1em;}
@@ -587,7 +587,7 @@ body {
   .hidname {display: block;}
   .hidunderline {display: block;}
   .intro {float: none; width: 90%; padding-right: .5em; border-right: .75em groove var(--thrawnblue); margin-left: 5%; margin-right: 5%; margin-top: 5%;}
-  .datafile {float: none; width: 50%; margin-left: 25%; margin-right: 25%;}
+  .datafile {float: none; width: 60%; margin-left: 20%; margin-right: 20%;}
   .media {display: none;}
   .mediatitle {text-align: center;}
   .funfactborder2 {display: none;}
@@ -602,7 +602,7 @@ body {
   #bottomquotelabel {margin-left: 9%; margin-right: 5%;}
   .bodyconodd {flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 5%;}
   .bodyconeven {flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 5%;}
-  .bodyimg {width: 50%;}
+  .bodyimg {width: 60%;}
   #bodyimg1 {border-bottom: 0 groove var(--red);}
   #bodyimg2 {border-bottom: 0 groove var(--green);}
   #bodyimg3 {border-bottom: 0 groove var(--yellow);}
@@ -623,6 +623,42 @@ body {
 
 @media screen and (min-width: 550px) and (max-width: 767px) {
   .background {background-color: blue;}
+  .hidname {display: block; font-size: 1.6em;}
+  .firstletter {font-size: 1.1em;}
+  .hidunderline {display: block;}
+  .intro {float: none; width: 90%; padding-right: .5em; border-right: .75em groove var(--thrawnblue); margin-left: 5%; margin-right: 5%; margin-top: 5%;}
+  .datafile {float: none; width: 60%; margin-left: 20%; margin-right: 20%;}
+  .media {display: none;}
+  .mediatitle {text-align: center;}
+  .funfactborder2 {display: none;}
+  .behindscenesborder2 {display: none;}
+  .name {display: none;}
+  .underline {display: none;}
+  .quotemark {margin-left: 5%;}
+  #topquotemark {margin-top: 5%;}
+  .quote {margin-left: 7%; margin-right: 5%;}
+  #bottomquote {margin-left: 7%; margin-right: 5%;}
+  .quotelabel {margin-left: 9%; margin-right: 5%;}
+  #bottomquotelabel {margin-left: 9%; margin-right: 5%;}
+  .bodyconodd {flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 5%;}
+  .bodyconeven {flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 5%;}
+  .bodyimg {width: 60%;}
+  #bodyimg1 {border-bottom: 0 groove var(--red);}
+  #bodyimg2 {border-bottom: 0 groove var(--green);}
+  #bodyimg3 {border-bottom: 0 groove var(--yellow);}
+  #bodyimg4 {border-bottom: 0 groove var(--orange);}
+  #bodyimg5 {border-bottom: 0 groove var(--purple);}
+  .bodypar {position: static; padding-left: .25em; margin-left: 10%; margin-right: 10%;}
+  .bodycap {position: static; padding-left: .25em; margin-right: .25em}
+  #bodycap1 {width: 8.4em;}
+  #bodycap2 {width: 7.2em;}
+  #bodycap3 {width: 7.8em;}
+  #bodycap4 {width: 8.1em;}
+  #bodycap5 {width: 9.3em;}
+  .hidbubbles {display: flex;}
+  .hidmedia {display: block;}
+  .char {margin-left: 5%; margin-right: 5%;}
+  .footer {margin-top: 5%;}
 }
 
 @media screen and (max-width: 549px) {
